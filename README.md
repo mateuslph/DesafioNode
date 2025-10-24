@@ -4,11 +4,11 @@ API para consultar CEP e exibir o resultado. Com a funcionalidade de usar memór
 ## Estrutura do projeto:
 
 desafionode/
-* ├── package.json
-* ├── server.js
-* ├── README.md
-* ├── .env
-* └── .gitignore
+├── package.json   
+├── server.js   
+├── README.md   
+├── .env   
+└── .gitignore
 
 
 ## Instruções:
