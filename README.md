@@ -23,7 +23,7 @@ desafionode/
 
 ### Instale as dependências Node.js: 
 
-```npm install express axios cors dotenv```
+```npm install node-cache axios express cors dotenv```
 
 - express → framework web para Node.js;
 - axios → cliente HTTP para fazer a requisição ao ViaCEP;
