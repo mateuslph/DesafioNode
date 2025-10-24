@@ -44,11 +44,22 @@ desafionode/
 
 ```bash
 npm install node-cache axios express cors dotenv
+npm npm install eslint --save-dev
 ```
 
-- express → framework web para Node.js;
+- node-cache → permite armazenar dados na memória do servidor por um determinado tempo (TTL – Time To Live);
 - axios → cliente HTTP para fazer a requisição ao ViaCEP;
-- cors → permite que outros domínios acessem a API (útil se quiser chamar do front-end);
+- express → framework web para Node.js;
+- cors → permite que outros domínios acessem a API;
+- dotenv → permite você carregar variáveis de ambiente.   
+
+> SLint é uma ferramenta de análise estática de código para JavaScript, serve para encontrar problemas e inconsistências no seu código.   
+
+### ⚡ Por que usar ESLint:
+* Evita erros de sintaxe;
+* Padroniza o estilo do código entre diferentes desenvolvedores;
+* Facilita a manutenção e legibilidade do código;
+* Inconsistências de estilo.
 
 ### No seu package.json, adicione:
 
