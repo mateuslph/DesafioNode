@@ -54,7 +54,7 @@ npm npm install eslint --save-dev
 - cors → permite que outros domínios acessem a API;
 - dotenv → permite você carregar variáveis de ambiente.   
 
-> SLint é uma ferramenta de análise estática de código para JavaScript, serve para encontrar problemas e inconsistências no seu código.   
+> ESLint é uma ferramenta de análise estática de código para JavaScript, serve para encontrar problemas e inconsistências no seu código.   
 
 ### ⚡ Por que usar ESLint:
 * Evita erros de sintaxe;
@@ -80,4 +80,39 @@ npm npm install eslint --save-dev
 
 ```bash
 npm start
+```   
+
+## Como usar o ESLint:
+
+Inicializar o ESLint, execute: `npx eslint --init`
+
+O ESLint vai fazer algumas perguntas interativas para gerar o arquivo de configuração (.eslintrc.json).
+Aqui vai um guia com as respostas recomendadas para o seu tipo de projeto Node.js (sem TypeScript):
+
+| Pergunta | Resposta sugerida |
+| ------------- |-------------| 
+| How would you like to use ESLint? | To check syntax, find problems, and enforce code style |
+| What type of modules does your project use? | CommonJS (require/exports) | 
+| Which framework does your project use? | None of these | 
+| Does your project use TypeScript? | No | 
+| Where does your code run? | Node | 
+| What flavor of Markdown do you want to lint? | GitHub Flavored Markdown | 
+| Which package manager do you want to use? | npm |
+
+## Agora você pode rodar:
+
+```bash
+npm run lint
+```
+
+## Verificar erros no código:
+
+```bash
+npx eslint .
+```
+
+## Corrigir automaticamente erros de estilo:
+
+```bash
+npx eslint . --fix
 ```
