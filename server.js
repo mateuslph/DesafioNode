@@ -25,11 +25,6 @@ function autenticarToken(req, res, next) {
   next();
 }
 
-// Rota inicial
-app.get('/', (req, res) => {
-  res.json({ mensagem: 'API de consulta de CEP via ViaCEP (POST + Autenticação)' });
-});
-
 // Rota POST protegida por token
 app.post('/cep', autenticarToken, async (req, res) => {
   const { cep } = req.body;
