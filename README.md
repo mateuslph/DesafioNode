@@ -4,9 +4,9 @@ API para consultar CEP e exibir o resultado. Com a funcionalidade de usar memór
 ## Estrutura do projeto:
 
 cep-api/
-├── package.json
-├── server.js
-└── .gitignore
+* ├── package.json
+* ├── server.js
+* └── .gitignore
 
 ## Instruções:
 
