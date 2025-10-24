@@ -42,7 +42,9 @@ desafionode/
 
 ### Instale as dependências Node.js: 
 
-```npm install node-cache axios express cors dotenv```
+```bash
+npm install node-cache axios express cors dotenv
+```
 
 - express → framework web para Node.js;
 - axios → cliente HTTP para fazer a requisição ao ViaCEP;
@@ -50,18 +52,20 @@ desafionode/
 
 ### No seu package.json, adicione:
 
- ```
+ ```js
  "scripts":
  {"start": "node server.js"}
  ```
 
 ### Crie um arquivo chamado .env na raiz do projeto:
 
- ```
+ ```conf
  API_TOKEN=meu_token_secreto_123
  PORT=3000
  ```
 
 ### Rode o projeto "desafionode":
 
-```npm start```
+```bash
+npm start
+```

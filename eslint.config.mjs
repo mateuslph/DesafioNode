@@ -12,7 +12,7 @@ export default defineConfig([
     extends: ["js/recommended"],
     languageOptions: {
       globals: globals.node,
-      sourceType: "commonjs"
+      sourceType: "commonjs",
     },
   },
   {
@@ -46,6 +46,13 @@ export default defineConfig([
     extends: ["css/recommended"],
   },
   {
-    ignores: ["node_modules", ".env", "build", "dist"], // substitui o antigo .eslintignore
+    ignores: [
+      "node_modules",
+      ".env",
+      "build",
+      "dist",
+      "eslint.config.mjs",
+      "package-lock.json", // ignora o lock file
+    ],
   },
 ]);
