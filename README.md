@@ -4,11 +4,11 @@ API para consultar CEP e exibir o resultado. Com a funcionalidade de usar memór
 ## Estrutura do projeto:
 
 desafionode/
-├── package.json
-├── server.js
-├── README.md
-├── .env
-└── .gitignore
+* ├── package.json
+* ├── server.js
+* ├── README.md
+* ├── .env
+* └── .gitignore
 
 
 ## Instruções:
@@ -21,7 +21,9 @@ desafionode/
 
 ## Instalação:
 
-### Instale as dependências Node.js: ```npm install express axios cors dotenv```
+### Instale as dependências Node.js: 
+
+```npm install express axios cors dotenv```
 
 - express → framework web para Node.js;
 - axios → cliente HTTP para fazer a requisição ao ViaCEP;
